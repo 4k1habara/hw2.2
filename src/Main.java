@@ -10,7 +10,7 @@ public class Main {
         ServiceStation serviceStation = new ServiceStation();
         Car car = new Car("Audi", 4);
         Bicycle bicycle = new Bicycle("BMX", 2);
-        Truck truck = new Truck("VAZ", 6);
+        Truck truck = new Truck("КАМАЗ", 6);
         serviceStation.check(car);
         serviceStation.check(bicycle);
         serviceStation.check(truck);
